@@ -10,6 +10,8 @@ public class HistoireTP4 {
 		
 		Yakuza yaku_le_noir = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
 		
+		Ronin roro = new Ronin("Roro", "shoshu", 60);
+		
 		prof.direBonjour();
 		prof.acheter("boisson", 12);
 		prof.boire();
@@ -28,6 +30,10 @@ public class HistoireTP4 {
 		yaku_le_noir.direBonjour();
 		yaku_le_noir.extorquer(marco);
 		
+		System.out.println("\n");
+		
+		roro.direBonjour();
+		roro.donner(marco);
 		
 	}
 }
